@@ -8,7 +8,7 @@
         style="font-size: 50px"
       >
         <i class="flaticon-043-teddy-bear"></i>
-        <span class="text-primary">KidKinder</span>
+        <span class="text-primary">Bloggit</span>
       </a>
       <button
         type="button"
@@ -25,9 +25,6 @@
         <div class="navbar-nav font-weight-bold mx-auto py-0">
           <a href="index.html" class="nav-item nav-link active">Home</a>
           <a href="about.html" class="nav-item nav-link">About</a>
-          <a href="class.html" class="nav-item nav-link">Classes</a>
-          <a href="team.html" class="nav-item nav-link">Teachers</a>
-          <a href="gallery.html" class="nav-item nav-link">Gallery</a>
           <div class="nav-item dropdown">
             <a
               href="#"
@@ -40,7 +37,6 @@
               <a href="single.html" class="dropdown-item">Blog Detail</a>
             </div>
           </div>
-          <a href="contact.html" class="nav-item nav-link">Contact</a>
         </div>
 
         <!----- Login and register buttons ------->
