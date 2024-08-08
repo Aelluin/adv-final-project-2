@@ -20,4 +20,8 @@ Route::post('register', [AuthController::class, 'create_user']);
 
 Route::get('forgot', [AuthController::class, 'forgot']);
 
-Route::get('panel/dashboard', [DashboardController::class, 'dashboard']);
+Route::get('/userview', [DashboardController::class, 'userview']);
+
+Route::get('/test', function () {
+    return view('userview');
+});

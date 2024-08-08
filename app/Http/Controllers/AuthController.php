@@ -31,7 +31,7 @@ class AuthController extends Controller
         {
 
             echo "successfully logged in";
-            return redirect('/');
+            return redirect('/userview');
         }
         else
         {
